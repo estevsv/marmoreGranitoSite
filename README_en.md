@@ -1,7 +1,7 @@
 
-# Professional Portfolio - Marble and Granite
+Marble and Granite Dois Irmãos
 
-This project is a **responsive institutional website** created for the fictional company **"Dois Irmãos"**, aiming to showcase their marble and granite products and facilitate customer contact.
+This project is a **responsive institutional website** created for the company **"Dois Irmãos"**, aiming to showcase their marble and granite products and facilitate customer contact.
 
 ## 🔍 About the Project
 
