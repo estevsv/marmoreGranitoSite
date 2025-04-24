@@ -1,42 +1,71 @@
+## 🏛️ Marbles and Granites - Business Website
 
-## **Marble and Granite Dois Irmãos**
+This is a corporate website developed for a marble and granite company called *Dois Irmãos*, specialized in high-quality materials. The project was built as part of a professional portfolio, showcasing best practices in HTML, CSS, and JavaScript to deliver an elegant, functional, and responsive layout.
 
-This project is a **responsive institutional website** created for the company **"Dois Irmãos"**, aiming to showcase their marble and granite products and facilitate customer contact.
+## 🧩 Technologies Used
 
-## 🔍 About the Project
+- **HTML5**: Structure of the content  
+- **CSS3**: Visual styling and responsiveness  
+- **JavaScript (Vanilla)**: Interaction logic such as slider and carousel  
 
-The site is divided into the following main sections:
-- **Header:** Sticky menu with smooth scrolling navigation.
-- **Hero with Slider:** Automatically fading images showcasing different environments with marble and granite.
-- **Products:** Interactive carousel with various product categories.
-- **Company:** Institutional information and mission of the company.
-- **Location:** Embedded map from Google Maps.
-- **Contact:** Direct WhatsApp button for quotes or inquiries.
-- **Footer:** Contact information and social media links.
+## ✨ Features
 
-## 🧑‍💻 Technologies Used
-- **HTML5:** Page structure.
-- **CSS3:** Styling with variables, responsive layout, and carousel.
-- **JavaScript:** Slider animations and carousel controls.
+**1. Header with Navigation**  
+A fixed top menu for easy navigation to sections such as:  
 
-## 🚀 How to Use
+- Products  
+- Company  
+- Location  
+- Contact  
 
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/marble-granite-site.git
-```
-2. Enter the directory and open the `index.html` file in your browser.
+**2. Hero Section with Automatic Slider**  
+Fullscreen image slider that cycles automatically to showcase marble and granite environments.  
 
-## 📂 Project Structure
-```
-├── assets/
-│   └── img/               # Project images
+- Images feature a dark overlay  
+- Includes a call-to-action button ("Request a Quote")  
+
+**3. Product Carousel**  
+An interactive horizontal showcase with side buttons to navigate through the products:  
+
+- Counters, sinks, fireplaces, tables, niches, and more  
+
+**4. About Section**  
+Highlights the company’s mission and strengths, emphasizing quality, tradition, and personalized service.  
+
+**5. Integrated Map (Google Maps)**  
+Displays the physical store location embedded via `<iframe>`.  
+
+**6. WhatsApp Contact**  
+Easy direct contact with the sales team through a button that redirects to the company’s WhatsApp.  
+
+**7. Footer**  
+Includes logo, contact phone number, and social media links (Instagram).  
+
+## 📁 File Structure
+.
+├── index.html
 ├── css/
-│   └── style.css          # Website styles
+│   └── style.css
 ├── js/
-│   └── script.js          # Interaction scripts
-└── index.html             # Main page
-```
+│   └── script.js
+├── assets/
+│   ├── img/
+│   │   └── (All used images)
 
-## 📞 Contact
-Developed by Estêvão Vieira — estevaovieira.dev
+## 🔧 How to Run Locally
+
+1. Clone or download this repository.  
+2. Open the `index.html` file directly in your browser.  
+3. Ensure the `css`, `js`, and `assets` folders remain in the same hierarchy.
+
+## 📌 Technical Notes
+
+- The slider automatically changes images using JavaScript.  
+- The carousel is navigated via buttons that slide items horizontally.  
+- The page is responsive and uses Flexbox for layout.  
+- The visual identity uses neutral tones and golden accents for elegance.
+
+## 👨‍💻 Author
+
+**Estêvão Segatto Vieira**  
+Full Stack Developer | Specialist in APIs and Responsive Interfaces

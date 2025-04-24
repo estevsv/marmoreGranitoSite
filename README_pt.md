@@ -1,42 +1,76 @@
+## 🏛️ Mármores e Granitos - Site Institucional
+Este é um site institucional desenvolvido para uma marmoraria chamada Dois Irmãos, especializada em mármores e granitos de alta qualidade. O projeto foi criado com foco em portfólio profissional, exibindo boas práticas em HTML, CSS e JavaScript para um layout elegante, funcional e responsivo.
 
-# Portfólio Profissional - Mármores e Granitos
+## 🧩 Tecnologias Utilizadas
+HTML5: Estruturação do conteúdo
 
-Este projeto é um **site institucional responsivo** desenvolvido para a marmoraria fictícia **"Dois Irmãos"**, com o objetivo de apresentar seus produtos, serviços e facilitar o contato com potenciais clientes.
+CSS3: Estilização visual e responsividade
 
-## 🔍 Sobre o Projeto
+JavaScript (Vanilla): Lógica de interações, como slider e carrossel
 
-O site é estruturado em seções principais:
-- **Cabeçalho:** Menu fixo com navegação suave entre as seções da página.
-- **Hero com Slider:** Imagens ilustrativas com fade automático, apresentando ambientes com mármore e granito.
-- **Produtos:** Carrossel interativo com as principais categorias de produtos.
-- **Empresa:** Apresentação institucional e missão da marmoraria.
-- **Localização:** Mapa incorporado via Google Maps.
-- **Contato:** Botão direto para WhatsApp para orçamentos e dúvidas.
-- **Rodapé:** Informações de contato e redes sociais.
+## ✨ Funcionalidades
+**1. Cabeçalho com Navegação**
+Um menu fixo no topo da página permite fácil navegação para seções como:
 
-## 🧑‍💻 Tecnologias Utilizadas
-- **HTML5:** Estrutura da página.
-- **CSS3:** Estilização com variáveis, layout responsivo e carrossel.
-- **JavaScript:** Animações de slider e controle de carrossel.
+Produtos
 
-## 🚀 Como Usar
+Empresa
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/marmores-granitos.git
-```
-2. Acesse o diretório e abra o arquivo `index.html` no navegador.
+Localização
 
-## 📂 Estrutura do Projeto
-```
-├── assets/
-│   └── img/               # Imagens do projeto
+Contato
+
+**2. Hero Section com Slider Automático**
+Destaque com imagens em tela cheia alternando automaticamente, promovendo os ambientes com mármore e granito.
+
+As imagens são sobrepostas com uma camada escura (overlay)
+
+Contém chamada para ação ("Solicite um Orçamento")
+
+**3. Carrossel de Produtos**
+Uma vitrine horizontal interativa com botões laterais para navegar entre os produtos oferecidos:
+
+Balcões, cubas, lareiras, pias, mesas, nichos, entre outros
+
+**4. Seção Sobre a Empresa**
+Apresenta a missão e os diferenciais da empresa, reforçando qualidade, tradição e personalização no serviço prestado.
+
+**5. Mapa Integrado (Google Maps)**
+Mostra a localização física da loja com o endereço incorporado via <iframe>.
+
+**6. Contato via WhatsApp**
+Facilidade de contato direto com a equipe comercial através de um botão que redireciona para o WhatsApp da empresa.
+
+**7. Rodapé**
+Inclui logo, telefone de contato e redes sociais (Instagram).
+
+## 📁 Estrutura de Arquivos
+.
+├── index.html
 ├── css/
-│   └── style.css          # Estilos do site
+│   └── style.css
 ├── js/
-│   └── script.js          # Scripts de interação
-└── index.html             # Página principal
-```
+│   └── script.js
+├── assets/
+│   ├── img/
+│   │   └── (todas as imagens utilizadas)
 
-## 📞 Contato
-Desenvolvido por Estêvão Vieira — estevaovieira.dev
+## 🔧 Como Executar Localmente
+Clone ou baixe este repositório.
+
+Abra o arquivo index.html diretamente em seu navegador.
+
+Certifique-se de manter as pastas css, js e assets na mesma hierarquia.
+
+## 📌 Observações Técnicas
+As imagens do slider são alternadas automaticamente via JS.
+
+O carrossel é controlado por botões que deslizam os itens horizontalmente.
+
+A página é responsiva e usa flexbox para disposição de elementos.
+
+A identidade visual adota tons neutros e um toque de cor dourada para elegância.
+
+## 👨‍💻 Autor
+Estêvão Segatto Vieira
+Desenvolvedor Full Stack | Especialista em APIs e Interfaces Responsivas
